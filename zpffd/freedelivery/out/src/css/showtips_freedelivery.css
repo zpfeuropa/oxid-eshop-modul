@@ -1,0 +1,12 @@
+.showtips {
+  display:none;
+  width:940px; height:20px;
+  left:10px;
+  font: 12px / 140% arial, helvetica, clean, sans-serif; color:#FFFFFF;
+  border: 1px solid #cdcdcd;
+  text-align:center;
+  position:relative;
+  background:#ec6105;
+}
+
+
