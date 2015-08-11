@@ -14,9 +14,9 @@ Das Modul wird basierend auf OXID eshop Version 4.9.4.</br>
 (2)Kopiert man den Ordner 'zpffd' (zpf ist die Abkürzung des meines Names), dann legt man es unter dem Verzeichnis /modules seines OXID eshops.</br>
 (3)Öffnet man die Datei /application/views/azure/tpl/layout/header.tpl, dann legt man einen eigenen Block mit dem Name "show_tips_header" unterhalb <div id="header" class="clear">. Ich zeige es wie folgend:</br>
 </br>
-<div id="header" class="clear"></br>
+\<div id="header" class="clear"></br>
  .....</br>
-</div></br>
+\</div></br>
 [{block name="show_tips_header"}]</br>
 [{/block}]</br>
 </br>
